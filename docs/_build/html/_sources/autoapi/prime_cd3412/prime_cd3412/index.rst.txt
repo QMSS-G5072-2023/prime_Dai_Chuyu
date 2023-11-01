@@ -1,0 +1,41 @@
+:py:mod:`prime_cd3412.prime_cd3412`
+===================================
+
+.. py:module:: prime_cd3412.prime_cd3412
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   prime_cd3412.prime_cd3412.is_prime
+
+
+
+.. py:function:: is_prime(n)
+
+   Check if the input number is a prime number.
+
+   :param n:
+   :type n: any real number
+
+   :returns: True: n is a prime number
+             False: n is not a prime number
+   :rtype: Boolean value
+
+   .. rubric:: Examples
+
+   >>> n = 7
+   >>> is_prime(n)
+   True
+
+   >>> n = 180
+   >>> is_prime(n)
+   False
+
+

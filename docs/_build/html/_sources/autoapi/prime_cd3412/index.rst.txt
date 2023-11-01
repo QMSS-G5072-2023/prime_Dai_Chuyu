@@ -1,0 +1,22 @@
+:py:mod:`prime_cd3412`
+======================
+
+.. py:module:: prime_cd3412
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   prime_cd3412/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+
