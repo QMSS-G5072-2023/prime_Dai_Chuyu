@@ -1871,6 +1871,19 @@ files = [
 widechars = ["wcwidth"]
 
 [[package]]
+name = "test-pypi"
+version = "0.22"
+description = "Test project to learn how pypi works"
+optional = false
+python-versions = "*"
+files = [
+    {file = "test_pypi-0.22.tar.gz", hash = "sha256:71ebbcd57732928f2f53d709fefd96ffe3b9ff1670abd37b475a4aa57d90de79"},
+]
+
+[package.dependencies]
+tornado = "*"
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -1973,4 +1986,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "3cf2a3ae21cdd7a4b15d188bc9133c16d9d69b58fe195291d2a3557202a3a4a5"
+content-hash = "ea60ebff3416369d4971141668a323f75635b635a291bc323844f88b29f06f1b"

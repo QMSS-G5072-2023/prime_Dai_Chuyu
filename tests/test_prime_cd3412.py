@@ -1,6 +1,4 @@
-import sys
-sys.path.insert(0, '/Users/dcy/Documents/MDS/prime_cd3412/prime_cd3412/src/prime_cd3412')
-from prime_cd3412 import *
+from prime_cd3412 import prime_cd3412
 
 def test_is_prime():
     actual = []
